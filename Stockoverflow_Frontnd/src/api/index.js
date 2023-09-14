@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://stack-overflow-api-ys0g.onrender.com",
-  // baseURL: "https://stackoverflow-api-wkec.onrender.com",
+  baseURL: "https://stackoverflow-backend-tmkx.onrender.com",
 });
 
 API.interceptors.request.use((req) => {
